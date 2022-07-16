@@ -19,7 +19,6 @@ jobs:
       - image: cimg/node:12.22.8
     steps:
       - checkout
-      - run: npm i
       - restore_cache:
           keys:
             - "npm-packages"
